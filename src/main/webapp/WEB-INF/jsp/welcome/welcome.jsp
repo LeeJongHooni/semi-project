@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="/static/icons/welcome-icon.svg">
+    <link rel="shortcut icon" type="image/x-icon" href="/static/icons/pets_black_24dp.svg">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     <link href="<%=request.getContextPath()%>/static/css/style.css" rel="stylesheet" type="text/css"/>
@@ -16,7 +16,7 @@
 	<div class="main-box">
 	<div class="logo-box">
    	<a class="logo-link" href="/main">
-		<img name ="logo"class="logo" src="/static/icons/welcome-icon.svg">
+		<img name ="logo"class="logo" src="/static/icons/pets_black_24dp.svg">
    	</a>	
 	</div>
 	<div class="text-box">

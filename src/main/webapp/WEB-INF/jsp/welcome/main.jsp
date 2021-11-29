@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="shortcut icon" type="image/x-icon" href="/static/icons/welcome-icon.svg">
+<link rel="shortcut icon" type="image/x-icon" href="/static/icons/pets_black_24dp.svg">
 <title>우리 멍냥 찾아주사이트</title>
 <link href="<%=request.getContextPath()%>/static/css/style.css" rel="stylesheet" type="text/css"/>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -29,7 +29,7 @@
 		</nav>
 		<div class="header-logo-box">
 		<a class="header-logo-link" href="/">
-			<img name ="header-logo"class="header-logo" src="/static/icons/welcome-icon.svg">
+			<img name ="header-logo"class="header-logo" src="/static/icons/pets_black_24dp.svg">
 	   	</a>
 		</div>
 	</header>
