@@ -7,14 +7,26 @@
 <link rel="shortcut icon" type="image/x-icon" href="/static/icons/welcome-icon.svg">
 <title>우리 멍냥 찾아주사이트</title>
 <link href="<%=request.getContextPath()%>/static/css/style.css" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
 	<header class="main-header">
-		<div class="header-link_box">
-			<a href="#" class="header-login_link">로그인&nbsp;</a>
-			<div class="line"></div>
-			<a href="#" class="header-signup_link">&nbsp;회원가입</a>
-		</div>
+		<nav class="header-link_box">
+			<ul class="header-link_ul">
+				<li class="header-link_li"><a href="#" class="header-link_a">
+					<span class="material-icons">
+						menu
+					</span>
+				</a>
+				<ul class="header-link_menu">
+				<hr>
+					<li class="header-link_menu_content"><a href="#">로그인</a></li>
+					<hr>
+					<li class="header-link_menu_content"><a href="#">회원가입</a></li>
+				</ul></li>
+			</ul>
+		</nav>
 		<div class="header-logo-box">
 		<a class="header-logo-link" href="/">
 			<img name ="header-logo"class="header-logo" src="/static/icons/welcome-icon.svg">
